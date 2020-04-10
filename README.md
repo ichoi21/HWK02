@@ -42,3 +42,5 @@ First, use the Bootstrap CSS Framework to create a mobile responsive portfolio w
 
 - Setup GitHub Repo to start uploading commits for back up and live view.
 - HTMLs are initially set up for bootstrap CSS (may look into JS if there's time).
+- HTMLs got nav bars with active links, sections set up and started playing with format for aesthetics.
+- Added local styles.css to global styles.
