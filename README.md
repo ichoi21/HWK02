@@ -44,3 +44,6 @@ First, use the Bootstrap CSS Framework to create a mobile responsive portfolio w
 - HTMLs are initially set up for bootstrap CSS (may look into JS if there's time).
 - HTMLs got nav bars with active links, sections set up and started playing with format for aesthetics.
 - Added local styles.css to global styles.
+- enriched portfolio, added bootstrap container for gridding system and used cards.
+  // need to scale/crap image. [max-width, height, object-fit not quite there
+  // @media to suppport all devices. xl, lg, md, sm
