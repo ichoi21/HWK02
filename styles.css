@@ -28,9 +28,11 @@ header {
 }
 
 header h1 {
-  display: inline-block;
+  text-align: center;
+  /* display: inline-block; */
   font-size: 38px;
   color: #808378;
+  background-color: rgb(45, 45, 61);
 }
 
 article {

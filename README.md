@@ -48,3 +48,5 @@ First, use the Bootstrap CSS Framework to create a mobile responsive portfolio w
 - revised container, refined all htmls with with and added rows to enable gridding all across.
 - Refined and merged some card features to aesthetically control content in within "cell"
   //links in cards not working
+- Updated some formatting.
+- Tried to create a form with false prompt button.
