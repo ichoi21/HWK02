@@ -21,7 +21,7 @@ p {
 /* functions above is general and should affect all functions in HTML */
 /* header section */
 header {
-  padding: 5px;
+  padding: 10px;
   font-family: "Trebuchet MS", Arial, sans-serif;
   background-color: #334155;
   color: #ffffff;
@@ -32,25 +32,26 @@ header h1 {
   font-size: 38px;
   color: #808378;
 }
+
 article {
-  width: 75%;
-  display: inline-block;
-  /* margin-left: 20px;
-  margin-bottom: 20px; */
-  padding: 50px;
-  /* height: 300px; */
+  padding: 25px;
   font-family: Calibri, "Trebuchet MS", sans-serif;
   background-color: #6c7981;
-  color: #000000;
 }
-*/ article img {
-  height: 150px;
+article img {
+  height: 200px;
   max-width: 100%;
   object-fit: contain;
 }
 
+article a {
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+}
+
 footer {
-  padding: 20px;
+  padding: 10px;
   clear: both;
   font-family: Arial, sans-serif;
   text-align: center;

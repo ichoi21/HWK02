@@ -16,7 +16,7 @@
     <title>Welcome to i21's Portfolio</title>
   </head>
   <body>
-    <script
+    <!-- <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
       crossorigin="anonymous"
@@ -30,73 +30,91 @@
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
-    ></script>
+    ></script> -->
 
-    <!-- top header section -->
-    <header>
-      <h1>ian choi</h1>
-      <ul class="nav justify-content-end nav-tabs">
-        <li class="nav-item">
-          <a class="nav-link" href="./index.html">.about</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="#">.portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./contact.html">.contact</a>
-        </li>
-      </ul>
-    </header>
-    <!-- article is the body section -->
-    <article>
-      <div class="row">
+    <div class="container">
+      <!-- top header section -->
+      <header class="row">
         <div class="col-sm-6">
-          <div class="card bg-dark text-white">
+          <h1>ian choi</h1>
+        </div>
+        <div class="col-sm-6">
+          <ul class="nav justify-content-end nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">.about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">.portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">.contact</a>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <!-- article is the body section -->
+      <article class="row">
+        <div class="col-sm-6">
+          <div class="card" style="width: 18rem;">
             <img src="./Assets/Images/aj1.jpeg" alt="..." />
             <div class="card-img-overlay">
               <h5 class="card-title">Jordans</h5>
-              <a href="nike.com" class="">SNKRS</a>
+            </div>
+            <div class="card-body">
+              <a href="nike.com" class="btn btn-primary">SNKRS</a>
             </div>
           </div>
         </div>
         <div class="col-sm-6">
-          <div class="card bg-dark text-white">
-            <img src="./Assets/Images/f80.jpg" alt="..." />
+          <div class="card" style="width: 18rem;">
+            <img src="./Assets/Images/F80.jpg" alt="..." />
             <div class="card-img-overlay">
               <h5 class="card-title">F80</h5>
+            </div>
+            <div class="card-body">
               <a
                 href="https://www.bmwgroup-classic.com/en/history.html"
-                class=""
-                >BMW</a
+                class="btn btn-primary"
+                >BMW History</a
               >
             </div>
           </div>
         </div>
-      </div>
-      <div class="row">
         <div class="col-sm-6">
-          <div class="card bg-dark text-white">
+          <div class="card" style="width: 18rem;">
             <img src="./Assets/Images/inv.jpeg" alt="..." />
             <div class="card-img-overlay">
               <h5 class="card-title">Stocks Play</h5>
-              <a href="investing.com" class="">Investments</a>
+            </div>
+            <div class="card-body">
+              <a href="https://www.investing.com" class="btn btn-primary"
+                >Investments</a
+              >
             </div>
           </div>
         </div>
         <div class="col-sm-6">
-          <div class="card bg-dark text-white">
+          <div class="card" style="width: 18rem;">
             <img src="./Assets/Images/MEP.jpg" alt="..." />
             <div class="card-img-overlay">
               <h5 class="card-title">Engineering</h5>
-              <a href="calpacificsystems.com" class="">CPS</a>
+            </div>
+            <div class="card-body">
+              <a
+                href="https://www.calpacificsystems.com"
+                class="btn btn-primary"
+                >CPS</a
+              >
             </div>
           </div>
         </div>
-      </div>
-    </article>
-    <!-- footer is the bottom caption section -->
-    <footer>
-      <h6>Made with BCS and Bootstrap by i21 &copy; 2020</h6>
-    </footer>
+      </article>
+      <!-- footer is the bottom caption section -->
+      <footer class="row">
+        <div class="col-sm-12">
+          <h6>Made with BCS and Bootstrap by i21 &copy; 2020</h6>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
