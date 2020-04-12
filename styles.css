@@ -1,5 +1,5 @@
 * body {
-  background-color: #d9dcd6;
+  background-color: rgb(69, 78, 100);
 }
 
 a {
@@ -48,12 +48,12 @@ article a {
 
 .card-title {
   font-weight: bold;
-  color: whitesmoke;
-  text-shadow: transparent;
+  color: rgb(72, 72, 88);
+  text-shadow: coral;
 }
 
-.cardbody {
-  padding-top: 5px;
+.card-body {
+  padding: 10px;
 }
 
 footer {
@@ -61,6 +61,7 @@ footer {
   clear: both;
   font-family: Arial, sans-serif;
   text-align: center;
+  color: whitesmoke;
 }
 
 .modal-content {
