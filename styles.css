@@ -1,9 +1,3 @@
-/* * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-} */
-
 * body {
   background-color: #d9dcd6;
 }
@@ -17,7 +11,7 @@ p {
   font-size: 16px;
   text-align: center;
 }
-*/
+
 /* functions above is general and should affect all functions in HTML */
 /* header section */
 header {
@@ -41,7 +35,7 @@ article {
   background-color: #6c7981;
 }
 article img {
-  height: 200px;
+  /* height: auto; */
   max-width: 100%;
   object-fit: contain;
 }
@@ -52,9 +46,29 @@ article a {
   text-decoration: none;
 }
 
+.card-title {
+  font-weight: bold;
+  color: whitesmoke;
+  text-shadow: transparent;
+}
+
+.cardbody {
+  padding-top: 5px;
+}
+
 footer {
   padding: 10px;
   clear: both;
   font-family: Arial, sans-serif;
   text-align: center;
+}
+
+.modal-content {
+  background-color: darkgray;
+}
+
+.modal-body {
+  padding: 20px;
+  text-align: center;
+  background-color: coral;
 }
